@@ -1,0 +1,22 @@
+# Local Python caches and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+
+# Raw or intermediate basketball datasets
+/data/play_by_play.csv
+/data/games.csv
+/data/team_box.csv
+/data/game_box.csv
+/data/teams.csv
+/data/rankings.csv
+/data/processed/temp_*/
+/data/processed/usable_comeback_games.csv
+/data/processed/all_games_cleaned_summary.csv
+/data/processed/comeback_timing_events.csv
+
+# Other local outputs
+*.zip
